@@ -6,6 +6,7 @@ This project allows users to compare handwritten text recognition performance be
 
 - [Description](#description)
 - [Features](#features)
+- [Configuration](#configuration)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
