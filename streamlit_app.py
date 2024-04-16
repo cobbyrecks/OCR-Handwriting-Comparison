@@ -58,8 +58,9 @@ def main():
                     st.success("Juxtaposed letter collage created successfully!")
 
                     # Show juxtaposed collage image
-                    collage_image = Image.open("juxtaposed_letter_collage_final.png")
-                    collage_image.show()
+                    collage_image = "juxtaposed_letter_collage_final.png"
+                    if collage_image:
+                        st.image(collage_image, use_column_width=True)
 
                     # Delete temporary files after we're done with them! (very necessary)
                     os.unlink(file_path_1)
@@ -97,8 +98,9 @@ def main():
                     st.success("Juxtaposed word collage created successfully!")
 
                     # Show juxtaposed collage image
-                    collage_image = Image.open("juxtaposed_word_collage_final.png")
-                    collage_image.show()
+                    collage_image = "juxtaposed_word_collage_final.png"
+                    if collage_image:
+                        st.image(collage_image, use_column_width=True)
 
                     # Delete temporary files after we're done with them! (very necessary)
                     os.unlink(file_path_1)
@@ -142,8 +144,9 @@ def main():
                     st.success("Juxtaposed letter collage created successfully!")
 
                     # Show juxtaposed collage image
-                    collage_image = Image.open("juxtaposed_letter_collage_final.png")
-                    collage_image.show()
+                    collage_image = "juxtaposed_letter_collage_final.png"
+                    if collage_image:
+                        st.image(collage_image, use_column_width=True)
 
                     # Delete temporary files after we're done with them! (very necessary)
                     os.unlink(file_path_1)
@@ -181,8 +184,9 @@ def main():
                     st.success("Juxtaposed word collage created successfully!")
 
                     # Show juxtaposed collage image
-                    collage_image = Image.open("juxtaposed_word_collage_final.png")
-                    collage_image.show()
+                    collage_image = "juxtaposed_word_collage_final.png"
+                    if collage_image:
+                        st.image(collage_image, use_column_width=True)
 
                     # Delete temporary files after we're done with them! (very necessary)
                     os.unlink(file_path_1)
