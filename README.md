@@ -23,38 +23,9 @@ The project aims to help users understand and compare the effectiveness of diffe
 
 ## Configuration
 
-### 1. Download Tesseract for Windows
+Install and configure Tesseract OCR based on your operating system.
 
-Download the Tesseract OCR executable file for Windows from [here](https://github.com/UB-Mannheim/tesseract/wiki)
-
-### 2. Set Tesseract Path in System Environmental Variables:
-
-After installing Tesseract on Windows, you need to add its installation directory to the system environmental variables. This ensures that Tesseract can be accessed from any location in the command prompt.
-
-#### Steps:
-
-1. **Find Tesseract Installation Directory**: Locate the directory where Tesseract is installed on your system. By default, it's usually installed in `C:\Program Files\Tesseract-OCR`.
-
-2. **Open System Properties**: Right-click on the "This PC" icon on your desktop or in File Explorer, then select "Properties". Alternatively, you can press `Windows key + Pause/Break` to open System Properties.
-
-3. **Access Environmental Variables**: Click on "Advanced system settings" on the left sidebar. In the System Properties window, click on the "Environmental Variables..." button.
-
-4. **Edit System Variables**: In the Environmental Variables window, under the "System variables" section, find the variable named `Path` and select it. Then click the "Edit..." button.
-
-5. **Add Tesseract Path**: In the Edit Environment Variable window, click the "New" button and paste the path to the Tesseract installation directory. For example, `C:\Program Files\Tesseract-OCR`. Click "OK" to save the changes.
-
-### 3. Set Tesseract Path Manually in Python:
-
-In addition to setting the Tesseract path in the system environmental variables, you may need to specify the path manually in your Python scripts, especially if you're using virtual environments.
-
-#### Example Python Code:
-
-```python
-import pytesseract
-
-# Set the path to the Tesseract executable
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-```
+For windows, installl the Tesseract executable file from [here](https://github.com/UB-Mannheim/tesseract/wiki)
 
 ## Installation
 
